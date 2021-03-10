@@ -1,0 +1,45 @@
+/*
+Colors used:
+AliceBlue #F0F8FF  240,248,255
+BlueViolet #8A2BE2  138,43,226
+DarkViolet #9400D3  148,0,211
+LightSteelBlue #B0C4DE  176,196,222
+*/
+body {
+  background-color: rgba(240, 248, 255, 100);
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: rgba(176, 196, 222, 100);
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+}
