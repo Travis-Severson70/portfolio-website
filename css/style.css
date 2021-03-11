@@ -16,6 +16,7 @@ body {
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: rgba(147, 168, 196, 100);
+  /* Sets the font color */
 }
 
 h1, h2, h3, h4 {
