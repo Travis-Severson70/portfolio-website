@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1A1A1A;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="32" width="32" x="240" y="240"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="behance__x2C__social__x2C__media">
+	<g>
+		<path class="st0" d="M12.7,13.3c0-0.7-0.6-1.3-1.3-1.3H8v2.7h3.3C12.1,14.7,12.7,14.1,12.7,13.3z"/>
+		<path class="st0" d="M11.3,16.7H8V20h4c0.7,0,1.3-0.9,1.3-1.6C13.3,17,12.1,16.7,11.3,16.7z"/>
+		<path class="st0" d="M27.9,0H4.1C1.8,0,0,1.8,0,4.1v23.8C0,30.2,1.8,32,4.1,32h23.8c2.3,0,4.1-1.8,4.1-4.1V4.1
+			C32,1.8,30.2,0,27.9,0z M18.7,10h6v2h-6V10z M12,22.7H5.3V9.3H12c1.8,0,3.3,1.5,3.3,3.3c0,1.2-0.6,2.2-1.6,2.8
+			C15,16,16,17.2,16,18.7C16,20.9,14.2,22.7,12,22.7z M26.7,18h-7.3c0.1,1.5,1.1,2.7,2.3,2.7c1.2,0,1.9-0.8,2.2-2h2.7
+			c-0.5,2.3-1.9,4-4.9,4c-3,0-5-2.2-5-5c0-2.8,2-5,5-5c3,0,5,2.2,5,5C26.7,17.8,26.7,17.9,26.7,18z"/>
+		<path class="st0" d="M21.7,14.7c-1.2,0-2.1,0.8-2.2,2h4.4C23.7,15.5,22.8,14.7,21.7,14.7z"/>
+	</g>
+</g>
+<g id="Layer_1_1_">
+</g>
+</svg>
