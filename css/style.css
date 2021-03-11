@@ -3,11 +3,15 @@ Colors used:
 AliceBlue #F0F8FF  240,248,255
 BlueViolet #8A2BE2  138,43,226
 DarkViolet #9400D3  148,0,211
-LightSteelBlue #B0C4DE  176,196,222
+LightSteelBlue #b0c4de  176,196,222
 DarkSteelBlue #93abc4  147,168,196
+
+Logo Colors
+Purple #7754a2  119, 84, 162
+Gray #ala3a6  161, 163, 166
 */
 body {
-  background-color: rgba(240, 248, 255, 100);
+  background-color: #F0F8FF;
   font-family: 'Overpass', sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -15,7 +19,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: rgba(147, 168, 196, 100);
+  color: #93abc4;
   /* Sets the font color */
 }
 
@@ -42,6 +46,85 @@ h4 {
   font-size: 1.35em;
   font-weight: 500;
 }
+
+/* image scaling */
 img {
   width: 100%;
+}
+
+/* hyperlink states */
+a {
+  color: #7754a2;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:visited {
+  color: #7754a2;
+  /* Site visited */
+}
+
+a:hover,
+a:focus {
+  color: #93abc4;
+  text-decoration: underline;
+  /* Underline on hover/keyboard */
+}
+
+a:active {
+  color: #7754a2;
+  /* Selected link */
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background-color: #7754a2;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 2px solid #93abc4;
+  transition: 0.2 opacity;
+}
+
+.button:visited {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 2px solid #93abc4;
+}
+.button:hover,
+.button:focus {
+  opacity: 0.8;
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
+.button:active {
+  color: #b0c4de;
+  font-weight: 700;
+  padding: 10px;
+  text-transform: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #111111;
+}
+.button.contact {
+  background-color: transparent;
+  color: #7754a2;
+  text-transform: uppercase;
+  border: 2px solid #7754a2;
+}
+.button.contact:hover,
+.button.contact:focus {
+  background-color: #7754a2;
+  color: #ffffff;
+}
+.button.resume {
+  background-color: #7754a2;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-bottom: 2px solid #93abc4;
 }
