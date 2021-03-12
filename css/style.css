@@ -75,6 +75,12 @@ a:active {
   color: #7754a2;
   /* Selected link */
 }
+#hero {
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 
 /* Buttons */
 .button {
