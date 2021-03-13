@@ -18,11 +18,10 @@
 <body>
   <!-- Header Logo and links -->
   <header>
-    <div>
+    <div class="container">
       <img src="img/SeversonLogo200x105.svg">
       <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
+        <ul class="navigation>" <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -32,7 +31,7 @@
   <main>
     <!-- Hero Section -->
     <div id="hero">
-      <div>
+      <div class="container">
         <h1>Hi, my name is Travis Severson.</h1>
         <span>
           <p>I am a UI/UX Designer residing in Southern California.</p>
@@ -44,23 +43,21 @@
     </div>
     <!-- Work Section -->
     <div id="work">
-      <div>
+      <div class="container">
         <h2>My Work</h2>
-        <div>
-          <div>
-            <picture>
-              <source srcset="img/greentag/greentaglander@1x.png" media="(max-width:767px)">
-              <img src="img/greentag/greentaglander@2x.png" alt="greentag">
-            </picture>
-          </div>
-          <div>
-            <h3>GreenTag</h3>
-            <p>A convienient and user friendly money managing app.</p>
-            <p>Made with Figma, Illustrator, and Photoshop.</p>
-            <a href="greentag.html" class="button">See Case Study</a>
-          </div>
+        <div class="row">
+          <picture>
+            <source srcset="img/greentag/greentaglander@1x.png" media="(max-width:767px)">
+            <img src="img/greentag/greentaglander@2x.png" alt="greentag">
+          </picture>
         </div>
         <div>
+          <h3>GreenTag</h3>
+          <p>A convienient and user friendly money managing app.</p>
+          <p>Made with Figma, Illustrator, and Photoshop.</p>
+          <a href="greentag.html" class="button">See Case Study</a>
+        </div>
+        <div class="row">
           <picture>
             <source srcset="img/railfan/railfanlander@1x.png" media="(max-width:767px)">
             <img src="img/railfan/railfanlander@2x.png" alt="railfan">
@@ -72,7 +69,7 @@
           <p>Made with Figma, Illustrator, and Photoshop.</p>
           <a href="railfan.html" class="button">See Case Study</a>
         </div>
-        <div>
+        <div class="row">
           <picture>
             <source srcset="img/recipeasy/recipeasylander@1x.png" media="(max-width:767px)">
             <img src="img/recipeasy/recipeasylander@2x.png" alt="recipeasy">
@@ -84,7 +81,7 @@
           <p>Made with Sketch, Invision, Illustrator, and Photoshop.</p>
           <a href="recipeasy.html" class="button">See Case Study</a>
         </div>
-        <div>
+        <div class="row">
           <picture>
             <source srcset="img/gia/gialander@1x.png" media="(max-width:767px)">
             <img src="img/gia/gialander@2x.png" alt="give it away">
@@ -96,21 +93,19 @@
           <p>Made with Sketch, Invision, Illustrator, and Photoshop.</p>
           <a href="gia.html" class="button">See Case Study</a>
         </div>
-      </div>
-    </div>
-    </div>
   </main>
   <!-- Contact Section -->
-  <footer id="contact">
+  <footer>
+    <div class="container">
+    <h2>Get in Touch</h2>
     <div>
-      <h2>Get in Touch</h2>
+      <p>If you would like to discuss any of my work or job opportunities, please contact me!</p>
       <div>
-        <p>If you would like to discuss any of my work or job opportunities, please contact me!</p>
-        <div>
-          <a href="mailto:t.severson70@gmail.com" class="button contact">Email me</a>
-        </div>
-        <!-- Social links -->
-        <div>
+        <a href="mailto:t.severson70@gmail.com" class="button contact">Email me</a>
+      </div>
+      <!-- Social links -->
+      <div>
+        <div id="socialicons">
           <a href="http://www.linkedin.com/in/travis-severson-8b4525180" target="_blank">
             <img src="img/social/linkedInicon32x32.svg">
           </a>
@@ -120,9 +115,10 @@
           <a href="https://github.com/Travis-Severson70" target="_blank">
             <img src="img/social/githubicon32x32.svg">
           </a>
-          <div>
-            <p>Copyright Travis Severson 2021</p>
-          </div>
+        </div>
+        <div>
+          <p>Copyright Travis Severson 2021</p>
+        </div>
   </footer>
 
 </body>
