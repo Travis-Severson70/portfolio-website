@@ -3,13 +3,13 @@
 
 <head>
   <!-- Setting the Viewport in HTML -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="utf-8">
   <!-- setting default fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800;900&display=swap" rel="stylesheet">
   <!-- favicon area -->
   <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
@@ -17,94 +17,96 @@
 </head>
 
 <body>
+  <!-- Header Logo and links -->
   <header>
-    <div>
-      <!-- Logo and links -->
-      <img src="img/SeversonLogo200x105.svg">
+    <div class="container">
+      <img class="logo" src="img/SeversonLogo200x105.svg" alt="logo" />
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <main>
-        <div>
-          <!-- about me area -->
-          <div id="about">
-            <h1>About Me</h1>
-          </div>
-          <div>
-            <div>
-              <picture>
-                <source srcset="img/selfie@1x.jpg" media="(max-width:767px)">
-                <img src="img/selfie@2x.jpg" alt="travisseversonselfie">
-              </picture>
-              <div>
-                <p>I am a UI/UX designer and computer technician. I also enjoy many hobbies like guitar, model trains, gold prospecting to name a few. I've been in the printing industry since the late 80's and jumped on the computers before most
-                  people even knew how to turn one on. As you can imagine I have extensive knowledge of design and print. When the job no longer challenged me I did much research on a new craft that would be challenging and fun at the same time and
-                  UI design seemed to fit the bill perfectly. I currently reside in Santa Paula, California about fifty miles north of Los Angeles. Santa Paula is a small town but I can be in the heart of LA in a little over an hour. I like the
-                  weather and the small-town feel with anything important like the beach or a concert just a small drive away.</p>
-              </div>
-              <!-- skills and tools area -->
-              <div id="skillstools">
-                <h2>Skills and Tools</h2>
-              </div>
-              <h4>Relevent Skills</h4>
-              <ul>
-                <li>User Research
-                <li>Wireframing</li>
-                <li>Usability Testing</li>
-                <li>User Flows</li>
-                <li>Branding/Styling</li>
-                <li>Logo's/Typography</li>
-                <li>Mobile/Web design</li>
-                <li>Prototyping</li>
-              </ul>
-            </div>
-            <div>
-              <h4>Tools Used</h4>
-              <ul>
-                <li>Figma</li>
-                <li>Sketch</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
-                <li>Invision</li>
-                <li>Marvel</li>
-                <li>Usability Hub</li>
-                <li>Atom</li>
-              </ul>
-            </div>
-            <!-- Resume link -->
-            <div id="resume">
-              <a href="files/seversonresume.pdf" target="_blank" class="button resume">View Resume</a>
-            </div>
-      </main>
+    </div>
+  </header>
+  <main>
+    <!-- about me area -->
+    <div>
+      <div id="about">
+        <h1>About Me</h1>
+      </div>
       <div>
-        <!-- Contact Section -->
-        <footer id="contact">
+        <div>
+          <picture>
+            <source srcset="img/selfie@1x.jpg" media="(max-width:767px)">
+            <img src="img/selfie@2x.jpg" alt="travisseversonselfie">
+          </picture>
           <div>
-            <h2>Get in Touch</h2>
+            <p>I am a UI/UX designer and computer technician. I also enjoy many hobbies like guitar, model trains, gold prospecting to name a few. I've been in the printing industry since the late 80's and jumped on the computers before most
+              people even knew how to turn one on. As you can imagine I have extensive knowledge of design and print. When the job no longer challenged me I did much research on a new craft that would be challenging and fun at the same time and
+              UI design seemed to fit the bill perfectly. I currently reside in Santa Paula, California about fifty miles north of Los Angeles. Santa Paula is a small town but I can be in the heart of LA in a little over an hour. I like the
+              weather and the small-town feel with anything important like the beach or a concert just a small drive away.</p>
+          </div>
+          <!-- skills and tools area -->
+          <div id="skillstools">
+            <h2>Skills and Tools</h2>
+          </div>
+          <h4>Relevent Skills</h4>
+          <ul>
+            <li>User Research
+            <li>Wireframing</li>
+            <li>Usability Testing</li>
+            <li>User Flows</li>
+            <li>Branding/Styling</li>
+            <li>Logo's/Typography</li>
+            <li>Mobile/Web design</li>
+            <li>Prototyping</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tools Used</h4>
+          <ul>
+            <li>Figma</li>
+            <li>Sketch</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Invision</li>
+            <li>Marvel</li>
+            <li>Usability Hub</li>
+            <li>Atom</li>
+          </ul>
+        </div>
+        <!-- Resume link -->
+        <div id="resume">
+          <a href="files/seversonresume.pdf" target="_blank" class="button resume">View Resume</a>
+        </div>
+  </main>
+  <div>
+    <!-- Contact Section -->
+    <footer id="contact">
+      <div>
+        <h2>Get in Touch</h2>
+        <div>
+          <p>If you would like to discuss any of my work or job opportunities, please contact me!</p>
+          <div>
+            <a href="mailto:t.severson70@gmail.com" class="button contact">Email Me</a>
+          </div>
+          <!-- Social links -->
+          <div>
+            <a href="http://www.linkedin.com/in/travis-severson-8b4525180" target="_blank">
+              <img src="img/social/linkedInicon32x32.svg">
+            </a>
+            <a href="https://www.behance.net/travisseverson" target="_blank">
+              <img src="img/social/behanceicon32x32.svg">
+            </a>
+            <a href="https://github.com/Travis-Severson70" target="_blank">
+              <img src="img/social/githubicon32x32.svg">
+            </a>
             <div>
-              <p>If you would like to discuss any of my work or job opportunities, please contact me!</p>
-              <div>
-                <a href="mailto:t.severson70@gmail.com" class="button contact">Email Me</a>
-              </div>
-              <!-- Social links -->
-              <div>
-                <a href="http://www.linkedin.com/in/travis-severson-8b4525180" target="_blank">
-                  <img src="img/social/linkedInicon32x32.svg">
-                </a>
-                <a href="https://www.behance.net/travisseverson" target="_blank">
-                  <img src="img/social/behanceicon32x32.svg">
-                </a>
-                <a href="https://github.com/Travis-Severson70" target="_blank">
-                  <img src="img/social/githubicon32x32.svg">
-                </a>
-                <div>
-                  <p>Copyright Travis Severson 2021</p>
-                </div>
-        </footer>
+              <p>Copyright Travis Severson 2021</p>
+            </div>
+    </footer>
 
 </body>
 

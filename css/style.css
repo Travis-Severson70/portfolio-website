@@ -17,14 +17,15 @@ Gray #ala3a6  161, 163, 166
 body {
   background-color: #F0F8FF;
   font-family: 'Overpass', sans-serif;
-  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
   /* Sets the font size to 16px */
+  font-size: 16px;
+  /* Sets the font weight to 400 */
   font-weight: 400;
-  /* Sets the font weight to 300 */
-  line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #93abc4;
+  line-height: 1.6;
   /* Sets the font color */
+  color: #93abc4;
 }
 
 h1, h2, h3, h4 {
@@ -64,27 +65,20 @@ a {
 }
 
 /* Site visited */
-a:visited {
+nav>ul>li>a:visited {
   color: #7754a2;
 }
 
 /* Underline on hover/keyboard */
-a:hover,
+nav>ul>li>a:hover,
 a:focus {
   color: #93abc4;
   text-decoration: underline;
 }
 
 /* Selected link */
-a:active {
-  color: #7754a2;
-}
-
-/* Hero area */
-#hero {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
+nav>ul>li>a:active {
+  color: #ffffff;
 }
 
 /* Buttons */
@@ -125,17 +119,19 @@ a:active {
   border-bottom: 2px solid #111111;
 }
 
-.button.contact {
+.buttoncontact {
   background-color: transparent;
   color: #7754a2;
   text-transform: uppercase;
   border: 2px solid #7754a2;
+  margin: auto;
 }
 
-.button.contact:hover,
-.button.contact:focus {
+.buttoncontact:hover,
+.buttoncontact:focus {
   background-color: #7754a2;
   color: #ffffff;
+  margin: auto;
 }
 
 .button.resume {
@@ -145,9 +141,61 @@ a:active {
   border-bottom: 2px solid #93abc4;
 }
 
-/* Layout Styling */
+/* LAYOUT STYLING */
 .container {
-  padding: 0 15px;
+  padding: 15px;
+}
+
+/* Header Section */
+.logo {
+  max-width: 220px;
+  text-align: center;
+}
+
+header {
+  background-color: #b0c4de;
+  position: relative;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin: center;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 9px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/* Hero area */
+#hero .container {
+  background-color: #b0c4de;
+  margin: auto;
+}
+
+#hero {
+  display: inline-block;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #7754a2;
+  width: 100%;
+  text-align: center;
+}
+
+#hero .container h1 {
+  font-family: 'raleway', sans-serif;
+  line-height: 1.1;
+  color: #93abc4 margin-top: 0;
+  padding: 10px 0;
 }
 
 .row {
@@ -163,3 +211,5 @@ a:active {
   width: 32px;
   margin: auto;
 }
+
+/* About.html */
