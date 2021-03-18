@@ -251,3 +251,6 @@ nav>ul>li>a {
 }
 
 /* ABOUT.HTML */
+#resume .button.resume {
+  margin: auto;
+}
