@@ -7,16 +7,16 @@ LightSteelBlue #b0c4de  176,196,222
 DarkSteelBlue #93abc4  147,168,196
 
 Logo Colors
-Purple #7754a2  119, 84, 162
-Gray #ala3a6  161, 163, 166
+Purple #663399  102, 51, 153
+Blue #6f89d6  111, 137, 214
 */
 * {
   box-sizing: border-box;
 }
 
+/* Font Styling */
 body {
   background-color: #F0F8FF;
-  font-family: 'Raleway', sans-serif;
   font-family: 'Overpass', sans-serif;
   /* Sets the font size to 16px */
   font-size: 16px;
@@ -52,6 +52,27 @@ h4 {
   font-weight: 500;
 }
 
+/* LAYOUT STYLING */
+.container {
+  padding: 15px;
+}
+
+/* Header Section */
+.logo {
+  max-width: 220px;
+  text-align: center;
+}
+
+header {
+  background-color: #b0c4de;
+  position: relative;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin: auto;
+}
+
 /* image scaling */
 img {
   width: 100%;
@@ -60,19 +81,19 @@ img {
 /* HYPERLINK STATES */
 /* No underlining */
 a {
-  color: #7754a2;
+  color: #663399;
   text-decoration: none;
 }
 
 /* Site visited */
 nav>ul>li>a:visited {
-  color: #7754a2;
+  color: #663399;
 }
 
 /* Underline on hover/keyboard */
 nav>ul>li>a:hover,
 a:focus {
-  color: #93abc4;
+  color: #6f89d6;
   text-decoration: underline;
 }
 
@@ -84,7 +105,7 @@ nav>ul>li>a:active {
 /* Buttons */
 .button {
   display: inline-block;
-  background-color: #7754a2;
+  background-color: #663399;
   color: #ffffff;
   font-weight: 700;
   padding: 10px;
@@ -121,45 +142,24 @@ nav>ul>li>a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #7754a2;
+  color: #663399;
   text-transform: uppercase;
-  border: 2px solid #7754a2;
+  border: 2px solid #663399;
   margin: auto;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-  background-color: #7754a2;
+  background-color: #663399;
   color: #ffffff;
   margin: auto;
 }
 
 .button.resume {
-  background-color: #7754a2;
+  background-color: #663399;
   color: #ffffff;
   text-transform: uppercase;
   border-bottom: 2px solid #93abc4;
-}
-
-/* LAYOUT STYLING */
-.container {
-  padding: 15px;
-}
-
-/* Header Section */
-.logo {
-  max-width: 220px;
-  text-align: center;
-}
-
-header {
-  background-color: #b0c4de;
-  position: relative;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
-  text-align: center;
-  padding: 10px 0;
-  width: 100%;
-  margin: center;
 }
 
 nav>ul {
@@ -177,27 +177,29 @@ nav>ul>li>a {
   font-weight: 900;
 }
 
-/* Hero area */
+/* Hero Section */
 #hero .container {
-  background-color: #b0c4de;
+  background-color: rgba(176, 196, 222, 0.5);
+  border-bottom: 2px solid #663399;
   margin: auto;
+}
+
+#hero .container h1 {
+  line-height: 1.2;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #663399;
+  margin-top: 0;
+  padding: 10px 0;
 }
 
 #hero {
   display: inline-block;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px #7754a2;
+  color: #93abc4;
   width: 100%;
   text-align: center;
 }
 
-#hero .container h1 {
-  font-family: 'raleway', sans-serif;
-  line-height: 1.1;
-  color: #93abc4 margin-top: 0;
-  padding: 10px 0;
-}
-
+/* Work Section */
 .row {
   margin: 25px 0;
 }
@@ -207,9 +209,45 @@ nav>ul>li>a {
   border-bottom: 1px solid #93abc4
 }
 
+/* Footer Section */
+#contact .container {
+  background-color: rgba(176, 196, 222, 0.5);
+  border: solid #b0c4de;
+  margin: 15px;
+}
+
+#contact .container h2 {
+  line-height: 1.2;
+  color: #6f89d6;
+  margin: auto;
+}
+
+#contact .button.contact {
+  margin: 10px auto 35px auto;
+}
+
+#contact {
+  display: inline-block;
+  font-size: 16pt;
+  line-height: 1.4;
+  color: #6f89d6;
+  width: 100%;
+  text-align: center;
+}
+#contact p {
+  padding: 10px 15px;
+  margin: 5px 10px;
+}
+
+#copyright p {
+  font-size: 12px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
 #socialicons {
   width: 32px;
   margin: auto;
 }
 
-/* About.html */
+/* ABOUT.HTML */
