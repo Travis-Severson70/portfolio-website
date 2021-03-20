@@ -129,7 +129,7 @@ nav>ul>li>a:active {
   display: inline-block;
   background-color: #663399;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 800;
   padding: 10px;
   border-radius: 10px;
   border-bottom: 2px solid #93abc4;
@@ -138,7 +138,7 @@ nav>ul>li>a:active {
 
 .button:visited {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
@@ -180,8 +180,7 @@ nav>ul>li>a:active {
   color: #ffffff;
   text-transform: uppercase;
   border-bottom: 2px solid #93abc4;
-  text-align: center;
-  margin: auto;
+  transition: 0.2s opacity;
 }
 
 .buttonresume:hover,
@@ -190,21 +189,14 @@ nav>ul>li>a:active {
   text-decoration: none;
   padding: 10px;
   color: #ffffff;
-  margin: auto;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  border-bottom: 2px solid #93abc4;
+  transition: 0.2s opacity;
 }
 
 /* Hero Section */
 #hero {
   background-color: rgba(176, 196, 222, 0.5);
   padding: 0 0 20px 0;
-  display: inline-block;
   margin: 0 10px 10px 10px;
   border-bottom: 2px solid #663399;
   text-align: center;
@@ -233,6 +225,7 @@ nav>ul>li>a:active {
   line-height: 1.2;
   color: #6f89d6;
   text-align: center;
+  margin: 15px auto;
 }
 
 /* If you would like... */
@@ -250,8 +243,9 @@ nav>ul>li>a:active {
 
 #contact {
   display: inline-block;
+  font-weight: 900;
   font-size: 16pt;
-  line-height: 1.4;
+  line-height: 1.2;
   color: #6f89d6;
   width: 100%;
   text-align: center;
@@ -260,26 +254,27 @@ nav>ul>li>a:active {
 /* Social Icons/Links */
 #socialicons {
   width: 32px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 /* Copyright Travis Severson */
 #copyright p {
   font-size: 12px;
-  padding-bottom: 5px;
-  margin-bottom: 0px;
+  padding-bottom: 5px 0;
 }
 
 /* ABOUT.HTML */
-#about .container h1 {
-  width: 100%;
+/* About Me text */
+#about h1 {
   text-align: center;
 }
 
-#about .button.resume {
-  display: inline-block;
+/* Main Body */
+#resume {
   text-align: center;
-  margin: 0 auto 0 auto;
-  padding-bottom: 10px;
+}
+
+#resume {
+  padding-bottom: 25px;
   border-bottom: 1px solid #93abc4
 }
