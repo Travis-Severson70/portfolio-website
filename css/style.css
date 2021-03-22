@@ -294,6 +294,12 @@ Medium devices (640px and larger)
     padding: 20px 0 13;
   }
 
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
   #hero {
     padding: 10px 0;
   }
@@ -306,18 +312,18 @@ Medium devices (640px and larger)
     padding-bottom: 0;
   }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
   .col-md-6 {
     width: 50%;
   }
 
   [class*="col-"] {
     float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }
 
