@@ -81,7 +81,7 @@ header {
   -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
   text-align: center;
   padding: 10px 0;
-  margin: 10px 10px 0 10px;
+  margin: 0;
 }
 
 /* HYPERLINK STATES */
@@ -196,8 +196,9 @@ nav>ul>li>a:active {
 /* Hero Section */
 #hero {
   background-color: rgba(176, 196, 222, 0.5);
-  padding: 0 0 20px 0;
-  margin: 0 10px 10px 10px;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100% margin: 0 10px 10px 10px;
   border-bottom: 2px solid #663399;
   text-align: center;
 }
@@ -278,3 +279,56 @@ nav>ul>li>a:active {
   padding-bottom: 25px;
   border-bottom: 1px solid #93abc4
 }
+
+/* ==============================
+     @@@@@@  Breakpoint @@@@@@
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13;
+  }
+
+  #hero {
+    padding: 10px 0;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  #hero .container h1 {
+    padding-bottom: 0;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+}
+
+/* ==============================
+     @@@@@@  Breakpoint @@@@@@
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
+
+/* ==============================
+     @@@@@@  Breakpoint @@@@@@
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
