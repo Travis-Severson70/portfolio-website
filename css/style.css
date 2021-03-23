@@ -347,6 +347,10 @@ Medium devices (640px and larger)
   #about h3 {
     margin-top: 0;
   }
+
+  #about p {
+    margin-top: : 0;
+  }
 }
 
 /* ======== Breakpoint ==========
