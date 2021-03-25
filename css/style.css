@@ -199,7 +199,6 @@ nav>ul>li>a:active {
 #hero {
   background-color: rgba(176, 196, 222, 0.5);
   padding: 20px 0;
-  display: inline-block;
   width: 100% margin: 0 10px 10px 10px;
   border-bottom: 2px solid #663399;
   text-align: center;
@@ -373,22 +372,6 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  header {
-    text-align: unset;
-    padding: 20px 0 13;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-  #hero {
-    padding: 10px 0;
-    margin-bottom: 20px;
   }
 
   #hero span {
