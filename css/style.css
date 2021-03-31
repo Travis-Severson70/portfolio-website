@@ -70,8 +70,7 @@ h4 {
 /* Logo */
 .logo {
   max-width: 150px;
-  text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* Background with dropshadow */
@@ -79,9 +78,23 @@ header {
   background-color: #b0c4de;
   position: relative;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
-  text-align: center;
   padding: 10px 0;
   margin: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 /* HYPERLINK STATES */
@@ -94,10 +107,7 @@ a {
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -306,6 +316,22 @@ Medium devices (640px and larger)
   header {
     text-align: unset;
     padding: 20px 0 13;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
   }
 
   .logo {
