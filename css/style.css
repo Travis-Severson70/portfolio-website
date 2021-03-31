@@ -69,7 +69,7 @@ h4 {
 /* HEADER SECTION */
 /* Logo */
 .logo {
-  max-width: 220px;
+  max-width: 150px;
   text-align: center;
   padding-top: 20px;
 }
@@ -306,6 +306,12 @@ Medium devices (640px and larger)
   header {
     text-align: unset;
     padding: 20px 0 13;
+  }
+
+  .logo {
+    max-width: 220px;
+    text-align: center;
+    padding-top: 20px;
   }
 
   nav {
