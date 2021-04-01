@@ -357,7 +357,8 @@ Medium devices (640px and larger)
   .logo {
     max-width: 220px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
   }
 
   nav {
