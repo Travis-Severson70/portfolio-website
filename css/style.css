@@ -90,7 +90,7 @@ header {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
+  border-top: 1px solid rgba(102, 51, 153, 0.5);
 }
 
 .navtoggle.responsive li:last-child {
