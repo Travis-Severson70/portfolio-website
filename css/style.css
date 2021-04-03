@@ -77,10 +77,12 @@ h4 {
 /* Background with dropshadow */
 header {
   background-color: #b0c4de;
-  position: relative;
+  position: fixed;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
-  padding: 10px 0;
+  padding: 10px;
   margin: 0;
+  display: inline-block;
+  width: 100%;
 }
 
 .navtoggle.responsive nav {
@@ -127,6 +129,7 @@ a {
 
 nav>ul>li>a {
   padding: 0 9px;
+  display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
   color: #663399;
@@ -134,18 +137,24 @@ nav>ul>li>a {
 
 /* Site visited */
 nav>ul>li>a:visited {
+  padding: 0 9px;
+  display: inline-block;
   color: #663399;
 }
 
 /* Underline on hover/keyboard */
 nav>ul>li>a:hover,
 a:focus {
+  padding: 0 9px;
+  display: inline-block;
   color: #6f89d6;
   text-decoration: underline;
 }
 
 /* Selected link */
 nav>ul>li>a:active {
+  padding: 0 9px;
+  display: inline-block;
   color: #ffffff;
 }
 
@@ -223,8 +232,9 @@ nav>ul>li>a:active {
 /* Hero Section */
 #hero {
   background-color: rgba(176, 196, 222, 0.5);
-  padding: 20px 0;
-  width: 100% margin: 0 10px 10px 10px;
+  padding: 85px 20px 0;
+  width: 100%;
+  display: inline-block;
   border-bottom: 2px solid #663399;
   text-align: center;
 }
@@ -244,6 +254,10 @@ nav>ul>li>a:active {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #93abc4
+}
+
+.casestudy img {
+  padding-top: 78px;
 }
 
 /* FOOTER SECTION */
@@ -296,6 +310,7 @@ nav>ul>li>a:active {
 /* About Me text */
 #about h1 {
   text-align: center;
+  padding-top: 95px;
 }
 
 #about h2 {
@@ -368,7 +383,7 @@ Medium devices (640px and larger)
   }
 
   #hero {
-    padding: 10px 0;
+    padding: 95px 20px 0;
     margin-bottom: 20px;
   }
 
