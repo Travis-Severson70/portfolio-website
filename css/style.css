@@ -258,6 +258,9 @@ nav>ul>li>a:active {
 
 .casestudy img {
   padding-top: 78px;
+  max-width: 1200px;
+  display: block;
+  margin: auto;
 }
 
 /* FOOTER SECTION */
