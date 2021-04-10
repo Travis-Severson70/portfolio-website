@@ -282,7 +282,7 @@ nav>ul>li>a:active {
 
 /* Email Button */
 #contact .button.contact {
-  margin: 10px auto 35px auto;
+  margin: 10px auto 10px auto;
 }
 
 #contact {
@@ -336,6 +336,38 @@ nav>ul>li>a:active {
 #resume {
   padding-bottom: 25px;
   border-bottom: 1px solid #93abc4
+}
+
+/* ====================== */
+/* ===   CONTACT.HTML   === */
+/* ====================== */
+#contactfooter {
+  margin-top: 125px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Get in touch */
+#contactfooter .container h1 {
+  line-height: 1.2;
+  color: #6f89d6;
+  text-align: center;
+  margin: 15px auto;
+}
+
+/* If you would like... */
+#contactfooter p {
+  font-style: italic;
+  padding: 10px 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+/* Email Button */
+#contactfooter .button.contact {
+  margin: 10px auto 25px auto;
 }
 
 /* ======== Breakpoint ==========
