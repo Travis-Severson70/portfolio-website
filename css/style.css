@@ -276,7 +276,7 @@ nav>ul>li>a:active {
 #footer p {
   font-style: italic;
   padding: 10px 15px;
-  margin: 15px;
+  margin: 0 15px;
   text-align: center;
 }
 
@@ -414,7 +414,7 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   #hero {
