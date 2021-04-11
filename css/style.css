@@ -7,7 +7,7 @@ LightSteelBlue #b0c4de  176,196,222
 DarkSteelBlue #93abc4  147,168,196
 
 Logo Colors
-Purple #663399  102, 51, 153
+Purple #639  102, 51, 153
 Blue #6f89d6  111, 137, 214
 */
 * {
@@ -21,7 +21,7 @@ img {
 
 /* Font Styling */
 body {
-  background-color: #F0F8FF;
+  background-color: #f0f8ff;
   font-family: 'Raleway', sans-serif;
   /* Sets the font size to 16px */
   font-size: 16px;
@@ -36,7 +36,10 @@ body {
   margin: auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Overpass', sans-serif;
   line-height: 1.4;
 }
@@ -70,16 +73,16 @@ h4 {
 /* Logo */
 .logo {
   max-width: 150px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 6px;
 }
 
 /* Background with dropshadow */
 header {
   background-color: #b0c4de;
   position: fixed;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(119, 84, 162, 0.73);
-  padding: 10px;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(119, 84, 162, 0.73);
+  padding: 0;
   margin: 0;
   display: inline-block;
   width: 100%;
@@ -103,7 +106,8 @@ header {
   border-top: 1px solid rgba(102, 51, 153, 0.5);
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -123,23 +127,23 @@ nav>ul {
 /* HYPERLINK STATES */
 /* No underlining */
 a {
-  color: #663399;
+  color: #639;
   text-decoration: none;
 }
 
 nav>ul>li>a {
-  padding: 0 9px;
+  padding: 4px 9px 5px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
-  color: #663399;
+  color: #639;
 }
 
 /* Site visited */
 nav>ul>li>a:visited {
   padding: 0 9px;
   display: inline-block;
-  color: #663399;
+  color: #639;
 }
 
 /* Underline on hover/keyboard */
@@ -155,14 +159,14 @@ a:focus {
 nav>ul>li>a:active {
   padding: 0 9px;
   display: inline-block;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Buttons */
 .button {
   display: inline-block;
-  background-color: #663399;
-  color: #ffffff;
+  background-color: #639;
+  color: #fff;
   font-weight: 800;
   padding: 10px;
   border-radius: 10px;
@@ -171,7 +175,7 @@ nav>ul>li>a:active {
 }
 
 .button:visited {
-  color: #ffffff;
+  color: #fff;
   font-weight: 800;
   text-decoration: none;
   padding: 10px;
@@ -184,8 +188,7 @@ nav>ul>li>a:active {
   opacity: 0.8;
   text-decoration: none;
   padding: 10px;
-  color: #ffffff;
-  opacity: 0.8;
+  color: #fff;
 }
 
 .button:active {
@@ -194,27 +197,27 @@ nav>ul>li>a:active {
   padding: 10px;
   text-transform: none;
   border-radius: 10px;
-  border-bottom: 2px solid #111111;
+  border-bottom: 2px solid #111;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #663399;
+  color: #639;
   text-transform: uppercase;
-  border: 2px solid #663399;
+  border: 2px solid #639;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-  background-color: #663399;
-  color: #ffffff;
+  background-color: #639;
+  color: #fff;
   opacity: 0.8;
 }
 
 .buttonresume {
-  background-color: #663399;
-  color: #ffffff;
+  background-color: #639;
+  color: #fff;
   text-transform: uppercase;
   border-bottom: 2px solid #93abc4;
   transition: 0.2s opacity;
@@ -224,7 +227,7 @@ nav>ul>li>a:active {
 .buttonresume:focus {
   text-decoration: none;
   padding: 10px;
-  color: #ffffff;
+  color: #fff;
   border-bottom: 2px solid #93abc4;
   opacity: 0.8;
 }
@@ -235,7 +238,7 @@ nav>ul>li>a:active {
   padding: 85px 20px 0;
   width: 100%;
   display: inline-block;
-  border-bottom: 2px solid #663399;
+  border-bottom: 2px solid #639;
   text-align: center;
 }
 
@@ -243,7 +246,7 @@ nav>ul>li>a:active {
   line-height: 1.2;
   color: #6f89d6;
   margin-top: 10px;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 /* Work Section */
@@ -253,7 +256,7 @@ nav>ul>li>a:active {
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #93abc4
+  border-bottom: 1px solid #93abc4;
 }
 
 .casestudy img {
@@ -282,7 +285,7 @@ nav>ul>li>a:active {
 
 /* Email Button */
 #contact .button.contact {
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 
 #contact {
@@ -304,7 +307,7 @@ nav>ul>li>a:active {
 /* Copyright Travis Severson */
 #copyright p {
   font-size: 12px;
-  padding-bottom: 5px 0;
+  padding-bottom: 0;
 }
 
 /* ====================== */
@@ -322,11 +325,11 @@ nav>ul>li>a:active {
 }
 
 #about p {
-  Padding: 0 20px;
+  padding: 0 20px;
 }
 
 #about .row {
-  Padding: 0 20px;
+  padding: 0 20px;
 }
 
 #resume {
@@ -335,7 +338,7 @@ nav>ul>li>a:active {
 
 #resume {
   padding-bottom: 25px;
-  border-bottom: 1px solid #93abc4
+  border-bottom: 1px solid #93abc4;
 }
 
 /* ====================== */
@@ -367,7 +370,7 @@ nav>ul>li>a:active {
 
 /* Email Button */
 #contactfooter .button.contact {
-  margin: 10px auto 25px auto;
+  margin: 10px auto 25px;
 }
 
 /* ======== Breakpoint ==========
@@ -380,7 +383,11 @@ Medium devices (640px and larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13;
+    padding: 10px 0 5px;
+  }
+
+  header a {
+    padding: 0;
   }
 
   .navtoggle li:not(:last-child) {
@@ -407,19 +414,19 @@ Medium devices (640px and larger)
   .logo {
     max-width: 220px;
     text-align: center;
-    padding-top: 15px;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   #hero {
-    padding: 95px 20px 0;
-    margin-bottom: 20px;
+    padding: 90px 20px 0;
+    margin-bottom: 10px;
   }
 
   #hero span {
@@ -455,7 +462,7 @@ Medium devices (640px and larger)
   }
 
   #about h2 {
-    margin-top: 25;
+    margin-top: 25px;
   }
 
   #about h3 {
@@ -511,10 +518,6 @@ Large devices (1024px or larger)
     content: "";
     clear: both;
     display: table;
-  }
-
-  #about h2 {
-    margin-top: 25;
   }
 
   #about h3 {
