@@ -102,8 +102,9 @@ header {
 
 .navtoggle.responsive li {
   display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(102, 51, 153, 0.5);
+  padding: 0;
+  border-top: 1px solid #639;
+  max-width: 110px;
 }
 
 .navtoggle,
@@ -132,7 +133,7 @@ a {
 }
 
 nav>ul>li>a {
-  padding: 4px 9px 5px;
+  padding:6px 9px 5px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
@@ -144,6 +145,8 @@ nav>ul>li>a:visited {
   padding: 0 9px;
   display: inline-block;
   color: #639;
+  border-bottom: 3px solid #639;
+
 }
 
 /* Underline on hover/keyboard */
@@ -440,6 +443,7 @@ Medium devices (640px and larger)
   #work .container h2 {
     margin-top: 10px;
     margin-bottom: 40px;
+    color: #6f89d6;
   }
 
   #work h3 {
@@ -459,6 +463,10 @@ Medium devices (640px and larger)
     content: "";
     clear: both;
     display: table;
+  }
+
+  #about h1 {
+    color: #6f89d6;
   }
 
   #about h2 {
