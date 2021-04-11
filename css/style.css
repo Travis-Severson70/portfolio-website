@@ -270,38 +270,40 @@ nav>ul>li>a:active {
 }
 
 /* FOOTER SECTION */
+
 /* Get in touch */
+
 #footer .container h1 {
   line-height: 1.2;
   color: #6f89d6;
   text-align: center;
-  margin: 15px auto;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 /* If you would like... */
 #footer p {
   font-style: italic;
-  padding: 10px 15px;
-  margin: 0 15px;
+  display: inline-block;
   text-align: center;
+  margin: 10px 0 0 0;
 }
 
 /* Email Button */
 #contact .button.contact {
-  margin: 10px auto;
-}
-
-#contact {
+  margin: 0 0 25px;
+  font-style: italic;
+  text-decoration: underline;
   display: inline-block;
-  font-weight: 900;
-  font-size: 16pt;
-  line-height: 1.2;
-  color: #6f89d6;
-  width: 100%;
   text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 1.6;
 }
 
 /* Social Icons/Links */
+
 #socialicons {
   width: 32px;
   margin: 10px auto;
@@ -315,7 +317,9 @@ nav>ul>li>a:active {
 
 /* ====================== */
 /* ===   ABOUT.HTML   === */
+
 /* ====================== */
+
 /* About Me text */
 #about h1 {
   text-align: center;
@@ -482,6 +486,23 @@ Medium devices (640px and larger)
   }
 }
 
+#footer .container a {
+  line-height: 1.2;
+  font-style: italic;
+  color: #639;
+  text-align: center;
+  margin: 0 0 10px;
+  display: block;
+  text-decoration: underline;
+}
+
+/* If you would like... */
+#footer p {
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
 /* ======== Breakpoint ==========
 Large devices (1024px or larger)
 ================================= */
@@ -490,6 +511,19 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* Email Button */
+  #contact .button.contact {
+    margin: auto;
+    font-style: italic;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 1.6;
   }
 
   #hero span {
