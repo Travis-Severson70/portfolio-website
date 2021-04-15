@@ -70,6 +70,7 @@ h4 {
 }
 
 /* HEADER SECTION */
+
 /* Logo */
 .logo {
   max-width: 150px;
@@ -133,7 +134,7 @@ a {
 }
 
 nav>ul>li>a {
-  padding:6px 9px 5px;
+  padding: 6px 9px 5px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
@@ -146,12 +147,11 @@ nav>ul>li>a:visited {
   display: inline-block;
   color: #639;
   border-bottom: 3px solid #639;
-
 }
 
 /* Underline on hover/keyboard */
 nav>ul>li>a:hover,
-a:focus {
+nav>ul>li>a:focus {
   padding: 0 9px;
   display: inline-block;
   color: #6f89d6;
@@ -270,9 +270,7 @@ nav>ul>li>a:active {
 }
 
 /* FOOTER SECTION */
-
 /* Get in touch */
-
 #footer .container h1 {
   line-height: 1.2;
   color: #6f89d6;
@@ -284,7 +282,7 @@ nav>ul>li>a:active {
 /* If you would like... */
 #footer p {
   font-style: italic;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin: 10px 0 0 0;
 }
@@ -292,18 +290,16 @@ nav>ul>li>a:active {
 /* Email Button */
 #contact .button.contact {
   margin: 0 0 25px;
-  font-style: italic;
   text-decoration: underline;
-  display: inline-block;
+  display: block;
   text-align: center;
   width: 100%;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 14pt;
   line-height: 1.6;
 }
 
 /* Social Icons/Links */
-
 #socialicons {
   width: 32px;
   margin: 10px auto;
@@ -317,9 +313,7 @@ nav>ul>li>a:active {
 
 /* ====================== */
 /* ===   ABOUT.HTML   === */
-
 /* ====================== */
-
 /* About Me text */
 #about h1 {
   text-align: center;
@@ -370,14 +364,15 @@ nav>ul>li>a:active {
 /* If you would like... */
 #contactfooter p {
   font-style: italic;
-  padding: 10px 15px;
+  padding: 15px 15px;
   margin: 15px;
   text-align: center;
 }
 
 /* Email Button */
 #contactfooter .button.contact {
-  margin: 10px auto 25px;
+  margin: 10px auto 25px auto;
+  width: 15%;
 }
 
 /* ======== Breakpoint ==========
@@ -388,137 +383,21 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
-  header {
-    text-align: unset;
-    padding: 10px 0 5px;
-  }
-
-  header a {
-    padding: 0;
-  }
-
-  .navtoggle li:not(:last-child) {
+  #contactfooter #contact .button.contact {
+    margin: 0 0 25px;
     display: inline-block;
-  }
-
-  .navtoggle li:last-child {
-    display: none;
-  }
-
-  .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-  }
-
-  nav>ul {
-    margin: 1em 0;
-  }
-
-  nav>ul>li {
-    display: inline-block;
-  }
-
-  .logo {
-    max-width: 220px;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 15px;
-  }
+    width: 15%;
+    font-weight: bold;
+    font-size: 14pt;
+    line-height: 1.6;
+  }    /* Email Button */
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 0;
-  }
-
-  #hero {
-    padding: 90px 20px 0;
-    margin-bottom: 10px;
-  }
-
-  #hero span {
-    display: block;
-  }
-
-  #hero .container h1 {
-    padding-bottom: 0;
-  }
-
-  #work .container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    color: #6f89d6;
-  }
-
-  #work h3 {
-    margin-top: 0;
-  }
-
-  .col-md-6 {
-    width: 50%;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding: 0 10px;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  #about h1 {
-    color: #6f89d6;
-  }
-
-  #about h2 {
-    margin-top: 25px;
-  }
-
-  #about h3 {
-    margin-top: 0;
-  }
-
-  #about p {
-    margin-top: 0;
-  }
-}
-
-#footer .container a {
-  line-height: 1.2;
-  font-style: italic;
-  color: #639;
-  text-align: center;
-  margin: 0 0 10px;
-  display: block;
-  text-decoration: underline;
-}
-
-/* If you would like... */
-#footer p {
-  font-style: italic;
-  display: block;
-  text-align: center;
-}
-
-/* ======== Breakpoint ==========
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Email Button */
   #contact .button.contact {
     margin: auto;
-    font-style: italic;
     text-decoration: underline;
-    display: block;
+    text-transform: uppercase;
+    display: inline-block;
     text-align: center;
     width: 100%;
     font-weight: 400;
@@ -526,47 +405,172 @@ Large devices (1024px or larger)
     line-height: 1.6;
   }
 
-  #hero span {
+      header {
+      text-align: unset;
+      padding: 10px 0 5px;
+    }
+
+    header a {
+      padding: 0;
+    }
+
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+      display: none;
+    }
+
+    .navtoggle.responsive li {
+      display: block;
+      padding: 10px 0;
+    }
+
+    nav>ul {
+      margin: 1em 0;
+    }
+
+    nav>ul>li {
+      display: inline-block;
+    }
+
+    .logo {
+      max-width: 220px;
+      text-align: center;
+      padding-top: 10px;
+      padding-left: 15px;
+    }
+
+    nav {
+      width: auto;
+      float: right;
+      margin-top: 0;
+    }
+
+    #hero {
+      padding: 90px 20px 0;
+      margin-bottom: 10px;
+    }
+
+    #hero span {
+      display: block;
+    }
+
+    #hero .container h1 {
+      padding-bottom: 0;
+    }
+
+    #work .container h2 {
+      margin-top: 10px;
+      margin-bottom: 40px;
+      color: #6f89d6;
+    }
+
+    #work h3 {
+      margin-top: 0;
+    }
+
+    .col-md-6 {
+      width: 50%;
+    }
+
+    [class*="col-"] {
+      float: left;
+      padding: 0 10px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    #about h1 {
+      color: #6f89d6;
+    }
+
+    #about h2 {
+      margin-top: 25px;
+    }
+
+    #about h3 {
+      margin-top: 0;
+    }
+
+    #about p {
+      margin-top: 0;
+    }
+  }
+
+  #footer .container a {
+    line-height: 1.2;
+    font-style: italic;
+    color: #639;
+    text-align: center;
+    margin: 0 0 10px;
     display: block;
+    text-decoration: underline;
   }
 
-  #hero .container h1 {
-    padding-bottom: 0;
+  /* If you would like... */
+  #footer p {
+    font-style: italic;
+    display: block;
+    text-align: center;
   }
 
-  #work .container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
+  /* ======== Breakpoint ==========
+Large devices (1024px or larger)
+================================= */
+  @media only screen and (min-width: 1024px) {
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-  #work h3 {
-    margin-top: 0;
-  }
+    #hero span {
+      display: block;
+    }
 
-  .col-lg-7 {
-    width: 60%;
-  }
+    #hero .container h1 {
+      padding-bottom: 0;
+    }
 
-  .col-lg-5 {
-    width: 40%;
-  }
+    #work .container h2 {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
 
-  [class*="col-"] {
-    float: left;
-    padding: 0 10px;
-  }
+    #work h3 {
+      margin-top: 0;
+    }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+    .col-lg-7 {
+      width: 60%;
+    }
 
-  #about h3 {
-    margin-top: 0;
-  }
+    .col-lg-5 {
+      width: 40%;
+    }
 
-  #about p {
-    margin-top: 0;
+    [class*="col-"] {
+      float: left;
+      padding: 0 10px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    #about h3 {
+      margin-top: 0;
+    }
+
+    #about p {
+      margin-top: 0;
+    }
   }
-}
