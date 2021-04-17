@@ -405,7 +405,7 @@ Medium devices (640px and larger)
     display: inline-block;
     text-align: center;
     width: 100%;
-    padding: 0 10px;
+    padding: 5px 10px;
   }
 
   header {
