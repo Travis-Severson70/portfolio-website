@@ -170,7 +170,7 @@ nav>ul>li>a:active {
   background-color: #639;
   color: #fff;
   font-weight: 800;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 10px;
   border-bottom: 2px solid #93abc4;
   transition: 0.2s opacity;
@@ -180,7 +180,7 @@ nav>ul>li>a:active {
   color: #fff;
   font-weight: 800;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 10px;
   border-bottom: 2px solid #93abc4;
 }
@@ -189,14 +189,14 @@ nav>ul>li>a:active {
 .button:focus {
   opacity: 0.8;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
   color: #fff;
 }
 
 .button:active {
   color: #b0c4de;
   font-weight: 700;
-  padding: 10px;
+  padding: 5px 10px;
   text-transform: none;
   border-radius: 10px;
   border-bottom: 2px solid #111;
@@ -229,7 +229,7 @@ nav>ul>li>a:active {
 .buttonresume:hover,
 .buttonresume:focus {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
   color: #fff;
   border-bottom: 2px solid #93abc4;
   opacity: 0.8;
@@ -294,7 +294,7 @@ nav>ul>li>a:active {
   display: block;
   text-align: center;
   width: 100%;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 14pt;
   line-height: 1.6;
 }
@@ -372,9 +372,13 @@ nav>ul>li>a:active {
 /* Email Button */
 #contactfooter .button.contact {
   margin: 10px auto 25px auto;
-  width: 10%;
-  height: 10%;
-  padding: 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  width: 25%;
+  font-weight: 900;
+  font-size: 13.5pt;
+  line-height: 1.2;
 }
 
 /* ======== Breakpoint ==========
@@ -389,10 +393,8 @@ Medium devices (640px and larger)
     margin: 0 0 25px;
     display: inline-block;
     text-align: center;
-    width: 15%;
-    font-weight: 800;
-    font-size: 14pt;
-    line-height: 1.6;
+    width: auto;
+
   }
 
   /* Email Button */
@@ -403,9 +405,7 @@ Medium devices (640px and larger)
     display: inline-block;
     text-align: center;
     width: 100%;
-    font-weight: 600;
-    font-size: 14pt;
-    line-height: 1.6;
+    padding: 0 10px;
   }
 
   header {
