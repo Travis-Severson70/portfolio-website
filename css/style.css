@@ -205,6 +205,7 @@ nav>ul>li>a:active {
 .button.contact {
   background-color: transparent;
   color: #639;
+  font-weight: 800;
   text-transform: uppercase;
   border: 2px solid #639;
   transition: 0.2s opacity;
@@ -389,7 +390,7 @@ Medium devices (640px and larger)
     display: inline-block;
     text-align: center;
     width: 15%;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 14pt;
     line-height: 1.6;
   }
@@ -402,7 +403,7 @@ Medium devices (640px and larger)
     display: inline-block;
     text-align: center;
     width: 100%;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14pt;
     line-height: 1.6;
   }
