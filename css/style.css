@@ -70,7 +70,6 @@ h4 {
 }
 
 /* HEADER SECTION */
-
 /* Logo */
 .logo {
   max-width: 150px;
@@ -372,7 +371,9 @@ nav>ul>li>a:active {
 /* Email Button */
 #contactfooter .button.contact {
   margin: 10px auto 25px auto;
-  width: 15%;
+  width: 10%;
+  height: 10%;
+  padding: 5px;
 }
 
 /* ======== Breakpoint ==========
@@ -391,8 +392,9 @@ Medium devices (640px and larger)
     font-weight: bold;
     font-size: 14pt;
     line-height: 1.6;
-  }    /* Email Button */
+  }
 
+  /* Email Button */
   #contact .button.contact {
     margin: auto;
     text-decoration: underline;
@@ -405,172 +407,172 @@ Medium devices (640px and larger)
     line-height: 1.6;
   }
 
-      header {
-      text-align: unset;
-      padding: 10px 0 5px;
-    }
-
-    header a {
-      padding: 0;
-    }
-
-    .navtoggle li:not(:last-child) {
-      display: inline-block;
-    }
-
-    .navtoggle li:last-child {
-      display: none;
-    }
-
-    .navtoggle.responsive li {
-      display: block;
-      padding: 10px 0;
-    }
-
-    nav>ul {
-      margin: 1em 0;
-    }
-
-    nav>ul>li {
-      display: inline-block;
-    }
-
-    .logo {
-      max-width: 220px;
-      text-align: center;
-      padding-top: 10px;
-      padding-left: 15px;
-    }
-
-    nav {
-      width: auto;
-      float: right;
-      margin-top: 0;
-    }
-
-    #hero {
-      padding: 90px 20px 0;
-      margin-bottom: 10px;
-    }
-
-    #hero span {
-      display: block;
-    }
-
-    #hero .container h1 {
-      padding-bottom: 0;
-    }
-
-    #work .container h2 {
-      margin-top: 10px;
-      margin-bottom: 40px;
-      color: #6f89d6;
-    }
-
-    #work h3 {
-      margin-top: 0;
-    }
-
-    .col-md-6 {
-      width: 50%;
-    }
-
-    [class*="col-"] {
-      float: left;
-      padding: 0 10px;
-    }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    #about h1 {
-      color: #6f89d6;
-    }
-
-    #about h2 {
-      margin-top: 25px;
-    }
-
-    #about h3 {
-      margin-top: 0;
-    }
-
-    #about p {
-      margin-top: 0;
-    }
+  header {
+    text-align: unset;
+    padding: 10px 0 5px;
   }
 
-  #footer .container a {
-    line-height: 1.2;
-    font-style: italic;
-    color: #639;
-    text-align: center;
-    margin: 0 0 10px;
+  header a {
+    padding: 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .navtoggle.responsive li {
     display: block;
-    text-decoration: underline;
+    padding: 10px 0;
   }
 
-  /* If you would like... */
-  #footer p {
-    font-style: italic;
-    display: block;
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .logo {
+    max-width: 220px;
     text-align: center;
+    padding-top: 10px;
+    padding-left: 15px;
   }
 
-  /* ======== Breakpoint ==========
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 0;
+  }
+
+  #hero {
+    padding: 90px 20px 0;
+    margin-bottom: 10px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  #hero .container h1 {
+    padding-bottom: 0;
+  }
+
+  #work .container h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #6f89d6;
+  }
+
+  #work h3 {
+    margin-top: 0;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about h1 {
+    color: #6f89d6;
+  }
+
+  #about h2 {
+    margin-top: 25px;
+  }
+
+  #about h3 {
+    margin-top: 0;
+  }
+
+  #about p {
+    margin-top: 0;
+  }
+}
+
+#footer .container a {
+  line-height: 1.2;
+  font-style: italic;
+  color: #639;
+  text-align: center;
+  margin: 0 0 10px;
+  display: block;
+  text-decoration: underline;
+}
+
+/* If you would like... */
+#footer p {
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
+/* ======== Breakpoint ==========
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #hero span {
-      display: block;
-    }
-
-    #hero .container h1 {
-      padding-bottom: 0;
-    }
-
-    #work .container h2 {
-      margin-top: 10px;
-      margin-bottom: 40px;
-    }
-
-    #work h3 {
-      margin-top: 0;
-    }
-
-    .col-lg-7 {
-      width: 60%;
-    }
-
-    .col-lg-5 {
-      width: 40%;
-    }
-
-    [class*="col-"] {
-      float: left;
-      padding: 0 10px;
-    }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    #about h3 {
-      margin-top: 0;
-    }
-
-    #about p {
-      margin-top: 0;
-    }
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  #hero span {
+    display: block;
+  }
+
+  #hero .container h1 {
+    padding-bottom: 0;
+  }
+
+  #work .container h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #work h3 {
+    margin-top: 0;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about h3 {
+    margin-top: 0;
+  }
+
+  #about p {
+    margin-top: 0;
+  }
+}
