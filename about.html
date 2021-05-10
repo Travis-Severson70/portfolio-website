@@ -3,7 +3,8 @@
 
 <head>
   <!-- Setting the Viewport in HTML -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="utf-8">
   <!-- setting default fonts -->
@@ -23,7 +24,7 @@
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-          <img class="logo" src="img/SeversonLogo200x105.svg" alt="logo" />
+          <img class="logo" src="img/SeversonLogo200x50.svg" alt="logo" />
         </a>
         <nav>
           <ul class="navigation">
@@ -43,24 +44,29 @@
         <h1>About Me</h1>
         <div class="row">
           <!-- first column  -->
-          <div class="col-md-6 col-lg-7">
+          <div class="col-md-6">
             <picture>
-              <source srcset="img/selfie@1x.jpg" media="(max-width:767px)">
+              <source srcset="img/ComputerSelf@1x.jpg" media="(max-width:767px)">
+              <img src="img/ComputerSelf@2x.jpg" alt="roomselfcomputers">
+            </picture>
+          </div>
+          <p>
+            I am a UI/UX designer and computer technician. I also enjoy many hobbies like playing guitar, modeling trains, and gold prospecting, to name a few. I’ve been in the printing industry since I was young. Having been a computer tech most
+            of that time, I always stayed on top of the newest trends in designing software and operating systems. I often downloaded and learned at home the newest technology to be familiar with them before they were implemented into the workflow
+            which really made me stand out from my peers. As you can imagine, I have extensive knowledge of print software and design. When the job no longer challenged me and everything became automated, I did months of research on a new craft
+            that would be evolving
+            and at the front of technology. UI design seemed to fit the bill perfectly.
+          </p>
+           <div class="col-md-4">
+            <picture>
+              <source srcset="img/selfie@1x.jpg" media="(max-width:500px)">
               <img src="img/selfie@2x.jpg" alt="travisseversonselfie">
             </picture>
           </div>
-          <!-- second column  -->
-          <div class="col-md-6 col-lg-5">
-            <p>
-              I am a UI/UX designer and computer technician. I also enjoy many hobbies like playing guitar, modeling trains, and gold prospecting, to name a few. I’ve been in the printing industry since I was young. Having been a computer tech most
-              of that time, I always stayed on top of the newest trends in designing software and operating systems. I often downloaded and learned at home the newest technology to be familiar with them before they were implemented into the workflow which really made me stand out from my peers. As you can imagine, I have extensive knowledge of print software and design. When the job no longer challenged me and everything became automated, I did months of research on a new craft that would be evolving
-              and at the front of technology. UI design seemed to fit the bill perfectly.
-            </p>
             <p>
               I live in historical Santa Paula, California, fifty miles north of Los Angeles. Santa Paula is a small town with good weather, good food, and the beach only 10 miles away. I can be in the heart of LA in a little over an hour for travel,
               business, concerts or, other attractions. I love the small town feel but have everything I could want close by.
             </p>
-          </div>
         </div>
         <!-- skills and tools area -->
         <div class="container">
@@ -78,6 +84,7 @@
                 <li>Logo's/Typography</li>
                 <li>Mobile/Web design</li>
                 <li>Prototyping</li>
+                <li>HTMl, CSS, JavaScript</li>
               </ul>
             </div>
             <!-- second column  -->
@@ -92,48 +99,47 @@
                 <li>Marvel</li>
                 <li>Usability Hub</li>
                 <li>Atom</li>
+                <li>GitHub</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    </div <!-- Resume link -->
+    </div> <!-- Resume link -->
     <div id="resume">
       <a href="files/seversonresume.pdf" class="button resume" target="_blank">View Resume</a>
-    </div>
     </div>
   </main>
   <!-- Contact Section -->
   <footer>
     <div id="footer">
       <div class="container">
-      <div>
-        <div id="contact">
-        <p>If you would like to discuss any of my work or job opportunities, you can</p>
-          <a href="mailto:severson_design@outlook.com" target="_blank">contact me!</a>
+        <div>
+          <div id="contact">
+            <p>If you would like to discuss any of my work or job opportunities, you can</p>
+            <a href="mailto:severson_design@outlook.com" target="_blank">contact me!</a>
+          </div>
         </div>
-      </div>
-      <!-- Social links -->
-      <div>
-        <p>Check me out on LinkedIn and Behance or check out the code for this site at Github!</p>
-        <div id="socialicons">
-          <a href="http://www.linkedin.com/in/travis-severson-8b4525180" target="_blank">
-            <img src="img/social/linkedInicon32x32.svg" alt="linked in">
-          </a>
-          <a href="https://www.behance.net/travisseverson" target="_blank">
-            <img src="img/social/behanceicon32x32.svg" alt="behance">
-          </a>
-          <a href="https://github.com/Travis-Severson70" target="_blank">
-            <img src="img/social/githubicon32x32.svg" alt="github">
-          </a>
-        </div>
-        <div id="copyright">
-          <p>Copyright Travis Severson 2021</p>
+        <!-- Social links -->
+        <div>
+          <p>Check me out on LinkedIn and Behance or check out the code for this site at Github!</p>
+          <div id="socialicons">
+            <a href="http://www.linkedin.com/in/travis-severson-8b4525180" target="_blank">
+              <img src="img/social/linkedInicon32x32.svg" alt="linked in">
+            </a>
+            <a href="https://www.behance.net/travisseverson" target="_blank">
+              <img src="img/social/behanceicon32x32.svg" alt="behance">
+            </a>
+            <a href="https://github.com/Travis-Severson70" target="_blank">
+              <img src="img/social/githubicon32x32.svg" alt="github">
+            </a>
+          </div>
+          <div id="copyright">
+            <p>Copyright Travis Severson 2021</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>

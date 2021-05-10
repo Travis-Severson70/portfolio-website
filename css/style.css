@@ -19,18 +19,25 @@ img {
   width: 100%;
 }
 
+body {
+  background-color: AliceBlue;
+}
+
 /* Font Styling */
 body {
-  background-color: #f0f8ff;
   font-family: 'Raleway', sans-serif;
+
   /* Sets the font size to 16px */
   font-size: 16px;
+
   /* Sets the font weight to 400 */
   font-weight: 400;
+
   /* Sets the line-height to 1.6 * the font-size */
   line-height: 1.6;
+
   /* Sets the font color */
-  color: #93abc4;
+  color: #537497;
   display: inline-block;
   width: 100%;
   margin: auto;
@@ -47,11 +54,15 @@ h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 900;
+  color: #5c79d1;
+  background-color: inherit;
 }
 
 h2 {
   font-size: 2.25em;
   font-weight: 800;
+  color: #5c79d1;
+  background-color: inherit;
 }
 
 h3 {
@@ -70,23 +81,25 @@ h4 {
 }
 
 /* HEADER SECTION */
+
 /* Logo */
 .logo {
   max-width: 150px;
-  padding-top: 12px;
-  padding-bottom: 6px;
+  padding-top: 27px;
+  padding-bottom: 4px;
 }
+
+
 
 /* Background with dropshadow */
 header {
-  background-color: #b0c4de;
+  background-color: #b4cae6;
   position: fixed;
-  -webkit-box-shadow: 0 4px 4px 0 rgba(119, 84, 162, 0.73);
-  padding: 0;
-  margin: 0;
+  -webkit-box-shadow: 1px 4px 4px 0 rgba(119, 84, 162, 0.73);
   display: inline-block;
   width: 100%;
 }
+
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -119,47 +132,43 @@ header {
   font-size: 20px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 /* HYPERLINK STATES */
+
 /* No underlining */
 a {
   color: #639;
   text-decoration: none;
 }
 
-nav>ul>li>a {
-  padding: 6px 9px 5px;
+nav > ul > li > a {
+  padding: 16px 9px 10px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
-  color: #639;
 }
 
 /* Site visited */
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   padding: 0 9px;
   display: inline-block;
-  color: #639;
   border-bottom: 3px solid #639;
 }
 
 /* Underline on hover/keyboard */
-nav>ul>li>a:hover,
-nav>ul>li>a:focus {
-  padding: 0 9px;
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
   display: inline-block;
   color: #6f89d6;
   text-decoration: underline;
 }
 
 /* Selected link */
-nav>ul>li>a:active {
-  padding: 0 9px;
+nav > ul > li > a:active {
+  padding: 16px 9px 10px;
   display: inline-block;
   color: #fff;
 }
@@ -190,11 +199,9 @@ nav>ul>li>a:active {
   opacity: 0.8;
   text-decoration: none;
   padding: 5px 10px;
-  color: #fff;
 }
 
 .button:active {
-  color: #b0c4de;
   font-weight: 700;
   padding: 5px 10px;
   text-transform: none;
@@ -230,26 +237,22 @@ nav>ul>li>a:active {
 .buttonresume:focus {
   text-decoration: none;
   padding: 5px 10px;
-  color: #fff;
   border-bottom: 2px solid #93abc4;
   opacity: 0.8;
 }
 
 /* Hero Section */
 #hero {
-  background-color: rgba(176, 196, 222, 0.5);
-  padding: 85px 20px 0;
+  margin: 89.25px 0;
   width: 100%;
-  display: inline-block;
+  background-color: #d4e3f7;
   border-bottom: 2px solid #639;
   text-align: center;
 }
 
 #hero .container h1 {
+  padding: 25px 0;
   line-height: 1.2;
-  color: #6f89d6;
-  margin-top: 10px;
-  padding: 20px 0;
 }
 
 /* Work Section */
@@ -270,7 +273,8 @@ nav>ul>li>a:active {
 }
 
 /* FOOTER SECTION */
-/* Get in touch */
+
+/* Get in touch - contact page */
 #footer .container h1 {
   line-height: 1.2;
   color: #6f89d6;
@@ -282,21 +286,18 @@ nav>ul>li>a:active {
 /* If you would like... */
 #footer p {
   font-style: italic;
-  display: block;
   text-align: center;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0;
 }
 
-/* Email Button */
-#contact .button.contact {
-  margin: 0 0 25px;
-  text-decoration: underline;
-  display: block;
+/* underlined contact me link. not button */
+#footer .container a {
+  line-height: 1.2;
+  font-style: italic;
   text-align: center;
-  width: 100%;
-  font-weight: 800;
-  font-size: 14pt;
-  line-height: 1.6;
+  margin: 0 0 10px;
+  display: block;
+  text-decoration: underline;
 }
 
 /* Social Icons/Links */
@@ -312,21 +313,23 @@ nav>ul>li>a:active {
 }
 
 /* ====================== */
+
 /* ===   ABOUT.HTML   === */
+
 /* ====================== */
+
 /* About Me text */
 #about h1 {
   text-align: center;
-  padding-top: 95px;
+  margin-top: 115px;
 }
 
 #about h2 {
-  padding-left: 20px;
-  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 #about p {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 #about .row {
@@ -343,11 +346,12 @@ nav>ul>li>a:active {
 }
 
 /* ====================== */
+
 /* ===   CONTACT.HTML   === */
+
 /* ====================== */
 #contactfooter {
   margin-top: 125px;
-  display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -364,57 +368,44 @@ nav>ul>li>a:active {
 /* If you would like... */
 #contactfooter p {
   font-style: italic;
-  padding: 15px 15px;
+  padding: 15px;
   margin: 15px;
-  text-align: center;
 }
 
 /* Email Button */
 #contactfooter .button.contact {
-  margin: 10px auto 25px auto;
   text-decoration: underline;
-  text-transform: uppercase;
-  text-align: center;
-  width: 25%;
   font-weight: 900;
   font-size: 13.5pt;
   line-height: 1.2;
 }
 
+/* Lander animation */
+
+
 /* ======== Breakpoint ==========
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
   body {
     font-size: 18px;
   }
 
   #contactfooter #contact .button.contact {
     margin: 0 0 25px;
-    display: inline-block;
     text-align: center;
     width: auto;
-
   }
 
   /* Email Button */
   #contact .button.contact {
-    margin: auto;
-    text-decoration: underline;
     text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
     padding: 5px 10px;
   }
 
   header {
     text-align: unset;
-    padding: 10px 0 5px;
-  }
-
-  header a {
-    padding: 0;
   }
 
   .navtoggle li:not(:last-child) {
@@ -425,48 +416,24 @@ Medium devices (640px and larger)
     display: none;
   }
 
-  .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
+  nav {
+    width: auto;
+    float: right;
+    margin: 10px 0;
   }
 
-  nav>ul {
-    margin: 1em 0;
-  }
-
-  nav>ul>li {
-    display: inline-block;
+  nav > ul {
+    margin: 5px 0;
   }
 
   .logo {
     max-width: 220px;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 15px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 0;
-  }
-
-  #hero {
-    padding: 90px 20px 0;
-    margin-bottom: 10px;
-  }
-
-  #hero span {
-    display: block;
-  }
-
-  #hero .container h1 {
-    padding-bottom: 0;
+    padding: 20px 0 10px 15px;
   }
 
   #work .container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin: 20px 10px 40px;
     color: #6f89d6;
   }
 
@@ -478,23 +445,28 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
-  [class*="col-"] {
+  .col-md-7 {
+    width: 30%;
+  }
+
+  .col-md-4 {
+    width: 25%;
+  }
+
+  [class*="col-md-6"] {
     float: left;
-    padding: 0 10px;
+    padding: 10px 20px 0 10px;
+  }
+
+  [class*="col-md-4"] {
+    float: right;
+    padding: 10px;
   }
 
   .row::after {
     content: "";
     clear: both;
     display: table;
-  }
-
-  #about h1 {
-    color: #6f89d6;
-  }
-
-  #about h2 {
-    margin-top: 25px;
   }
 
   #about h3 {
@@ -504,23 +476,6 @@ Medium devices (640px and larger)
   #about p {
     margin-top: 0;
   }
-}
-
-#footer .container a {
-  line-height: 1.2;
-  font-style: italic;
-  color: #639;
-  text-align: center;
-  margin: 0 0 10px;
-  display: block;
-  text-decoration: underline;
-}
-
-/* If you would like... */
-#footer p {
-  font-style: italic;
-  display: block;
-  text-align: center;
 }
 
 /* ======== Breakpoint ==========
@@ -533,23 +488,6 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
-  #hero span {
-    display: block;
-  }
-
-  #hero .container h1 {
-    padding-bottom: 0;
-  }
-
-  #work .container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
-
-  #work h3 {
-    margin-top: 0;
-  }
-
   .col-lg-7 {
     width: 60%;
   }
@@ -558,22 +496,4 @@ Large devices (1024px or larger)
     width: 40%;
   }
 
-  [class*="col-"] {
-    float: left;
-    padding: 0 10px;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  #about h3 {
-    margin-top: 0;
-  }
-
-  #about p {
-    margin-top: 0;
-  }
 }
