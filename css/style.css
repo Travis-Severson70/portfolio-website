@@ -3,8 +3,8 @@ Colors used:
 AliceBlue #F0F8FF  240,248,255
 BlueViolet #8A2BE2  138,43,226
 DarkViolet #9400D3  148,0,211
-LightSteelBlue #b0c4de  176,196,222
 DarkSteelBlue #93abc4  147,168,196
+DarkGray  #4a6786  74,103,134
 
 Logo Colors
 Purple #639  102, 51, 153
@@ -31,13 +31,16 @@ body {
   font-size: 16px;
 
   /* Sets the font weight to 400 */
+
   font-weight: 400;
 
   /* Sets the line-height to 1.6 * the font-size */
+
   line-height: 1.6;
 
   /* Sets the font color */
-  color: #537497;
+
+  color: #4a6786;
   display: inline-block;
   width: 100%;
   margin: auto;
@@ -89,8 +92,6 @@ h4 {
   padding-bottom: 4px;
 }
 
-
-
 /* Background with dropshadow */
 header {
   background-color: #b4cae6;
@@ -99,7 +100,6 @@ header {
   display: inline-block;
   width: 100%;
 }
-
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -360,7 +360,7 @@ nav > ul > li > a:active {
 /* Get in touch */
 #contactfooter .container h1 {
   line-height: 1.2;
-  color: #6f89d6;
+  color: #5c79d1;
   text-align: center;
   margin: 15px auto;
 }
@@ -382,12 +382,12 @@ nav > ul > li > a:active {
 
 /* Lander animation */
 
+/* ======== Breakpoint ========== */
 
-/* ======== Breakpoint ==========
-Medium devices (640px and larger)
-================================= */
+/* Medium devices (640px and larger) */
+
+/* ================================= */
 @media only screen and (min-width: 640px) {
-
   body {
     font-size: 18px;
   }
@@ -434,7 +434,7 @@ Medium devices (640px and larger)
 
   #work .container h2 {
     margin: 20px 10px 40px;
-    color: #6f89d6;
+    color: #5c79d1;
   }
 
   #work h3 {
@@ -495,5 +495,4 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
-
 }
